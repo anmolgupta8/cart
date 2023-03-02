@@ -99,7 +99,7 @@ class App extends React.Component {
         onDecreaseQuantity = {this.handleDecreaseQuantity}
         onDeleteProduct = {this.handleDeleteProduct}
         />
-        <div style={{fontSize : 30, padding : 20}}>Total Amount : {this.getCartTotal()}</div>
+        <div style={{fontSize : 30, padding : 20}}>Total Amount : Rs {this.getCartTotal()}</div>
       </div>
     );
   }
