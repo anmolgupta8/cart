@@ -39,12 +39,12 @@ class CartItem extends React.Component {
   };
 
   render() {
-    const { price, title, qty } = this.props.product;
+    const { price, title, qty, img } = this.props.product;
     const { product,onIncreaseQuantity, onDecreaseQuantity, onDeleteProduct } = this.props;
     return (
       <div className="cart-item">
         <div className="left-block">
-          <img alt="" style={styles.image} />
+          <img src = {img} alt="" style={styles.image} />
         </div>
         <div className="right-block">
           <div style={styles.heading}>{title}</div>
@@ -80,8 +80,8 @@ class CartItem extends React.Component {
 
 const styles = {
   image: {
-    height: 110,
-    width: 110,
+    height: 200,
+    width: 160,
     borderRadius: 4,
     backgroundColor: "lightGrey",
   },

@@ -10,28 +10,28 @@ class Cart extends React.Component {
                 price: 10999,
                 title: "Phone",
                 qty: 1,
-                img: "",
+                img: "https://www.mintmobile.com/wp-content/uploads/2022/09/iPhone_14_Plus_ProductRED_PDP_Image_Position-1A__en-US-min-1.png",
                 id: 1
             },
             {
                 price: 1999,
                 title: "Watch",
                 qty: 2,
-                img: "",
+                img: "https://m.media-amazon.com/images/I/71UXbfMHImS._UY445_.jpg",
                 id: 2
             },
             {
                 price: 79999,
                 title: "Laptop",
                 qty: 1,
-                img: "",
+                img: "https://m.media-amazon.com/images/I/41vbmwe7e4L._SY450_.jpg",
                 id: 3
             },
             {
                 price: 699,
                 title: "HeadPhones",
                 qty: 3,
-                img: "",
+                img: "https://m.media-amazon.com/images/I/61O0rXhhP6L._SL1500_.jpg",
                 id: 4
             },
           ]
